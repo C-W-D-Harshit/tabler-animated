@@ -1,0 +1,99 @@
+"use client";
+
+import type { Variants } from "motion/react";
+import { motion, useAnimation } from "motion/react";
+import type { HTMLAttributes } from "react";
+import * as React from "react";
+import { forwardRef, useCallback, useImperativeHandle, useRef } from "react";
+
+const Bone_VARIANTS: Variants = {
+  normal: { rotate: 0 },
+  animate: {
+    rotate: [0, -8, 8, -6, 0],
+    transition: {
+      ease: "circIn",
+      rotate: {
+        duration: 0.5,
+      },
+    },
+  },
+};
+
+export interface AnimatedIconHandle {
+  startAnimation: () => void;
+  stopAnimation: () => void;
+}
+
+export interface AnimatedIconProps extends HTMLAttributes<HTMLDivElement> {
+  size?: number | string;
+  strokeWidth?: number | string;
+  color?: string;
+}
+
+const AnimatedBone = forwardRef<AnimatedIconHandle, AnimatedIconProps>(
+  ({ size = 24, strokeWidth = 2, color = "currentColor", onMouseEnter, onMouseLeave, ...props }, ref) => {
+    const controls = useAnimation();
+    const isControlledRef = useRef(false);
+
+    useImperativeHandle(ref, () => {
+      isControlledRef.current = true;
+
+      return {
+        startAnimation: () => controls.start("animate"),
+        stopAnimation: () => controls.start("normal"),
+      };
+    });
+
+    const handleMouseEnter = useCallback(
+      (e: React.MouseEvent<HTMLDivElement>) => {
+        if (!isControlledRef.current) {
+          controls.start("animate");
+        }
+        onMouseEnter?.(e);
+      },
+      [controls, onMouseEnter],
+    );
+
+    const handleMouseLeave = useCallback(
+      (e: React.MouseEvent<HTMLDivElement>) => {
+        if (!isControlledRef.current) {
+          controls.start("normal");
+        }
+        onMouseLeave?.(e);
+      },
+      [controls, onMouseLeave],
+    );
+
+    return (
+      <div
+        className="cursor-pointer select-none p-2 hover:bg-accent rounded-md transition-colors duration-200 flex items-center justify-center"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        {...props}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke={color}
+          strokeWidth={strokeWidth}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <title>Bone</title>
+<motion.path
+            animate={controls}
+            d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"
+            variants={Bone_VARIANTS}
+          />
+        </svg>
+      </div>
+    );
+  },
+);
+
+AnimatedBone.displayName = "AnimatedBone";
+
+export default AnimatedBone;

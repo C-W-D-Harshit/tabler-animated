@@ -316,7 +316,7 @@ export const iconRegistry: IconEntry[] = [
       "active"
     ],
     "category": "Health",
-    "animated": false
+    "animated": true
   },
   {
     "name": "activity-heartbeat",
@@ -2162,7 +2162,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "align-justified",
@@ -2208,7 +2208,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "align-left2",
@@ -2243,7 +2243,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "align-right2",
@@ -3093,7 +3093,7 @@ export const iconRegistry: IconEntry[] = [
       "record"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "archive-off",
@@ -3938,7 +3938,7 @@ export const iconRegistry: IconEntry[] = [
       "flow"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-big-down-line",
@@ -4012,7 +4012,7 @@ export const iconRegistry: IconEntry[] = [
       "move"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-big-left-line",
@@ -4086,7 +4086,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-big-right-line",
@@ -4160,7 +4160,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-big-up-line",
@@ -4327,7 +4327,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-down-bar",
@@ -4448,7 +4448,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-down-left-circle",
@@ -4521,7 +4521,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-down-right-circle",
@@ -4831,7 +4831,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-left-bar",
@@ -5683,7 +5683,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-right-bar",
@@ -6170,7 +6170,7 @@ export const iconRegistry: IconEntry[] = [
       "move"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-up-bar",
@@ -6291,7 +6291,7 @@ export const iconRegistry: IconEntry[] = [
       "flow"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-up-left-circle",
@@ -6364,7 +6364,7 @@ export const iconRegistry: IconEntry[] = [
       "flow"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-up-right-circle",
@@ -7819,7 +7819,7 @@ export const iconRegistry: IconEntry[] = [
       "chemistry"
     ],
     "category": "Nature",
-    "animated": false
+    "animated": true
   },
   {
     "name": "atom2",
@@ -8969,7 +8969,7 @@ export const iconRegistry: IconEntry[] = [
       "ban"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bandage",
@@ -9859,7 +9859,7 @@ export const iconRegistry: IconEntry[] = [
       "gadget"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "battery1",
@@ -9945,7 +9945,7 @@ export const iconRegistry: IconEntry[] = [
       "electronic"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "battery-charging2",
@@ -11400,7 +11400,7 @@ export const iconRegistry: IconEntry[] = [
       "model"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bluetooth",
@@ -11420,7 +11420,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bluetooth-connected",
@@ -11443,7 +11443,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bluetooth-off",
@@ -11466,7 +11466,7 @@ export const iconRegistry: IconEntry[] = [
       "electronic"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bluetooth-x",
@@ -11596,7 +11596,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bold-off",
@@ -11700,7 +11700,7 @@ export const iconRegistry: IconEntry[] = [
       "culinary"
     ],
     "category": "Food",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bone-off",
@@ -11883,7 +11883,7 @@ export const iconRegistry: IconEntry[] = [
       "information"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bookmark-ai",
@@ -11952,7 +11952,7 @@ export const iconRegistry: IconEntry[] = [
       "trim"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bookmark-off",
@@ -11998,7 +11998,7 @@ export const iconRegistry: IconEntry[] = [
       "enlarge"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bookmark-question",
@@ -12869,7 +12869,7 @@ export const iconRegistry: IconEntry[] = [
       "box"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "box-align-bottom",
@@ -24151,7 +24151,7 @@ export const iconRegistry: IconEntry[] = [
       "verify"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "calendar-clock",
@@ -24220,7 +24220,7 @@ export const iconRegistry: IconEntry[] = [
       "preferences"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "calendar-dollar",
@@ -26768,7 +26768,7 @@ export const iconRegistry: IconEntry[] = [
       "multimedia"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cast-off",
@@ -27788,7 +27788,7 @@ export const iconRegistry: IconEntry[] = [
       "analytics"
     ],
     "category": "Charts",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chart-pie",
@@ -27811,7 +27811,7 @@ export const iconRegistry: IconEntry[] = [
       "analytics"
     ],
     "category": "Charts",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chart-pie2",
@@ -28019,7 +28019,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "checkbox",
@@ -28446,7 +28446,7 @@ export const iconRegistry: IconEntry[] = [
       "fall"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chevron-down-left",
@@ -28517,7 +28517,7 @@ export const iconRegistry: IconEntry[] = [
       "path"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chevron-left-pipe",
@@ -28564,7 +28564,7 @@ export const iconRegistry: IconEntry[] = [
       "path"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chevron-right-pipe",
@@ -28611,7 +28611,7 @@ export const iconRegistry: IconEntry[] = [
       "movement"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chevron-up-left",
@@ -29394,7 +29394,7 @@ export const iconRegistry: IconEntry[] = [
       "approve"
     ],
     "category": "Shapes",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevron-down",
@@ -29418,7 +29418,7 @@ export const iconRegistry: IconEntry[] = [
       "flow"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevron-left",
@@ -29442,7 +29442,7 @@ export const iconRegistry: IconEntry[] = [
       "circular"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevron-right",
@@ -29466,7 +29466,7 @@ export const iconRegistry: IconEntry[] = [
       "circular"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevron-up",
@@ -29490,7 +29490,7 @@ export const iconRegistry: IconEntry[] = [
       "round"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevrons-down",
@@ -29609,7 +29609,7 @@ export const iconRegistry: IconEntry[] = [
       "figure"
     ],
     "category": "Shapes",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-dashed-check",
@@ -32885,7 +32885,7 @@ export const iconRegistry: IconEntry[] = [
       "record"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "clipboard-copy",
@@ -33157,7 +33157,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "clock12",
@@ -34135,7 +34135,7 @@ export const iconRegistry: IconEntry[] = [
       "refine"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-computing",
@@ -34251,7 +34251,7 @@ export const iconRegistry: IconEntry[] = [
       "function"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-exclamation",
@@ -34551,7 +34551,7 @@ export const iconRegistry: IconEntry[] = [
       "sync"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-search",
@@ -34620,7 +34620,7 @@ export const iconRegistry: IconEntry[] = [
       "sync"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-star",
@@ -34712,7 +34712,7 @@ export const iconRegistry: IconEntry[] = [
       "server"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-x",
@@ -35062,7 +35062,7 @@ export const iconRegistry: IconEntry[] = [
       "eating"
     ],
     "category": "Food",
-    "animated": false
+    "animated": true
   },
   {
     "name": "coffee-off",
@@ -35698,7 +35698,7 @@ export const iconRegistry: IconEntry[] = [
       "position"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "compass-off",
@@ -36017,7 +36017,7 @@ export const iconRegistry: IconEntry[] = [
       "wcag"
     ],
     "category": "Photography",
-    "animated": false
+    "animated": true
   },
   {
     "name": "contrast2",
@@ -36170,7 +36170,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "copy-check",
@@ -36781,7 +36781,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cpu2",
@@ -46046,7 +46046,7 @@ export const iconRegistry: IconEntry[] = [
       "path"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "download-off",
@@ -46189,7 +46189,7 @@ export const iconRegistry: IconEntry[] = [
       "style"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "droplet-bolt",
@@ -47886,7 +47886,7 @@ export const iconRegistry: IconEntry[] = [
       "vision"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "eye-bitcoin",
@@ -48258,7 +48258,7 @@ export const iconRegistry: IconEntry[] = [
       "hidden"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "eye-pause",
@@ -56825,7 +56825,7 @@ export const iconRegistry: IconEntry[] = [
       "pattern"
     ],
     "category": "Shapes",
-    "animated": false
+    "animated": true
   },
   {
     "name": "heart-bitcoin",
@@ -70898,7 +70898,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "menu2",
@@ -74336,7 +74336,7 @@ export const iconRegistry: IconEntry[] = [
       "conditions"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "moon2",
@@ -88491,7 +88491,7 @@ export const iconRegistry: IconEntry[] = [
       "browse"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "search-off",
@@ -96543,7 +96543,7 @@ export const iconRegistry: IconEntry[] = [
       "function"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "star-half",
@@ -97179,7 +97179,7 @@ export const iconRegistry: IconEntry[] = [
       "conditions"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "sun-electricity",
@@ -101291,7 +101291,7 @@ export const iconRegistry: IconEntry[] = [
       "operation"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "trash-off",
@@ -102320,7 +102320,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "user-bitcoin",
