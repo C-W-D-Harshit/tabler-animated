@@ -11,6 +11,16 @@ import * as path from "node:path";
 // biome-ignore lint: dynamic require for script
 const icons = require("@tabler/icons-react");
 
+// Load Tabler icon metadata (tags, categories) for enhanced search
+const tablerMetaPath = path.resolve(
+  __dirname,
+  "../node_modules/@tabler/icons/icons.json",
+);
+const tablerMeta: Record<
+  string,
+  { name: string; category: string; tags: (string | number)[] }
+> = JSON.parse(fs.readFileSync(tablerMetaPath, "utf-8"));
+
 // Known animated icons -- update this list as new animated icons are created
 const ANIMATED_ICONS = new Set(["home", "settings", "bell"]);
 
@@ -23,17 +33,29 @@ function componentNameToSlug(componentName: string): string {
     .toLowerCase();
 }
 
-function generateKeywords(name: string, componentName: string): string[] {
+function generateKeywords(name: string): string[] {
   // Split the slug on hyphens for keywords
   const parts = name.split("-").filter(Boolean);
-  // Also add the full name
   return [...new Set([name, ...parts])];
+}
+
+function getTablerMeta(name: string): {
+  tags: string[];
+  category: string;
+} {
+  const meta = tablerMeta[name];
+  if (!meta) return { tags: [], category: "" };
+  // Tabler tags can contain numbers, coerce to strings
+  const tags = meta.tags.map(String);
+  return { tags, category: meta.category };
 }
 
 type IconEntry = {
   name: string;
   componentName: string;
   keywords: string[];
+  tags: string[];
+  category: string;
   animated: boolean;
 };
 
@@ -54,10 +76,13 @@ function main() {
 
   const entries: IconEntry[] = iconComponents.map((componentName) => {
     const name = componentNameToSlug(componentName);
+    const { tags, category } = getTablerMeta(name);
     return {
       name,
       componentName,
-      keywords: generateKeywords(name, componentName),
+      keywords: generateKeywords(name),
+      tags,
+      category,
       animated: ANIMATED_ICONS.has(name),
     };
   });
@@ -70,6 +95,8 @@ export type IconEntry = {
   name: string;
   componentName: string;
   keywords: string[];
+  tags: string[];
+  category: string;
   animated: boolean;
 };
 

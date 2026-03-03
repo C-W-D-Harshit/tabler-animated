@@ -12,7 +12,12 @@ import { iconRegistry, totalAnimated } from "@/icons/registry";
 import { cn } from "@/lib/utils";
 
 const fuse = new Fuse(iconRegistry, {
-  keys: ["name", "keywords"],
+  keys: [
+    { name: "name", weight: 2 },
+    { name: "keywords", weight: 1.5 },
+    { name: "tags", weight: 1 },
+    { name: "category", weight: 0.5 },
+  ],
   threshold: 0.3,
   includeScore: true,
 });
