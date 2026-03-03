@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import "./globals.css";
 import { Toaster } from "sonner";
-import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/constants";
@@ -40,12 +40,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="relative flex min-h-screen flex-col">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-          <Toaster />
+          <NuqsAdapter>
+            <div className="relative flex min-h-screen flex-col">
+              <Header />
+              <main className="flex-1">{children}</main>
+            </div>
+            <Toaster />
+          </NuqsAdapter>
         </ThemeProvider>
       </body>
     </html>

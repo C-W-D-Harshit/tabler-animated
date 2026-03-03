@@ -2,7 +2,7 @@
 
 import * as TablerIcons from "@tabler/icons-react";
 import { IconCheck, IconCopy } from "@tabler/icons-react";
-import { Suspense, useCallback, useRef, useState } from "react";
+import { memo, Suspense, useCallback, useRef, useState } from "react";
 import { toast } from "sonner";
 import type { AnimatedIconHandle } from "@/icons";
 import { animatedComponentMap } from "@/icons";
@@ -30,53 +30,56 @@ function StaticIcon({
   return <Icon size={size} />;
 }
 
-export function IconCard({ entry }: IconCardProps) {
-  const [isHovered, setIsHovered] = useState(false);
+export const IconCard = memo(function IconCard({ entry }: IconCardProps) {
   const [copied, setCopied] = useState(false);
   const animatedRef = useRef<AnimatedIconHandle>(null);
 
   const handleMouseEnter = useCallback(() => {
-    setIsHovered(true);
     if (entry.animated) {
       animatedRef.current?.startAnimation();
     }
   }, [entry.animated]);
 
   const handleMouseLeave = useCallback(() => {
-    setIsHovered(false);
     if (entry.animated) {
       animatedRef.current?.stopAnimation();
     }
   }, [entry.animated]);
 
-  const handleCopy = useCallback(async () => {
-    await navigator.clipboard.writeText(entry.componentName);
-    setCopied(true);
-    toast.success(`Copied "${entry.componentName}" to clipboard`);
-    setTimeout(() => setCopied(false), 1500);
-  }, [entry.componentName]);
+  const handleCopy = useCallback(
+    async (e: React.MouseEvent) => {
+      e.stopPropagation();
+      await navigator.clipboard.writeText(entry.componentName);
+      setCopied(true);
+      toast.success(`Copied "${entry.componentName}"`);
+      setTimeout(() => setCopied(false), 1500);
+    },
+    [entry.componentName],
+  );
 
   const AnimatedComponent = entry.animated
     ? animatedComponentMap[entry.name]
     : null;
 
   return (
-    // biome-ignore lint: hover events for animation preview, not interactive
+    // biome-ignore lint: hover events for animation triggers
     <div
       className={cn(
-        "group relative flex flex-col items-center gap-2 rounded-xl border border-border/50 bg-card p-4 transition-all",
-        "hover:border-border hover:bg-accent/50 hover:shadow-sm",
+        "group relative flex flex-col items-center justify-center gap-2.5 rounded-xl border border-transparent p-3 pt-4 transition-all duration-150",
+        "hover:border-border hover:bg-accent/60",
       )}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {entry.animated && (
-        <span className="absolute right-2 top-2 rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">
-          animated
-        </span>
+        <div className="absolute left-1.5 top-1.5">
+          <span className="inline-flex items-center rounded-md bg-foreground/[0.07] px-1.5 py-px text-[9px] font-semibold uppercase tracking-wider text-foreground/50">
+            animated
+          </span>
+        </div>
       )}
 
-      <div className="flex h-10 w-10 items-center justify-center text-foreground">
+      <div className="flex size-8 items-center justify-center text-foreground/80 transition-colors group-hover:text-foreground">
         {entry.animated && AnimatedComponent ? (
           <Suspense
             fallback={
@@ -90,25 +93,22 @@ export function IconCard({ entry }: IconCardProps) {
         )}
       </div>
 
-      <span className="max-w-full truncate text-xs text-muted-foreground">
+      <span className="max-w-full truncate text-[11px] leading-none text-muted-foreground/70 transition-colors group-hover:text-muted-foreground">
         {entry.name}
       </span>
 
       <button
         type="button"
         onClick={handleCopy}
-        className={cn(
-          "absolute right-1.5 bottom-1.5 rounded-md p-1 text-muted-foreground opacity-0 transition-all hover:text-foreground",
-          isHovered && "opacity-100",
-        )}
+        className="absolute right-1.5 bottom-1.5 rounded-md p-1 text-muted-foreground/50 opacity-0 transition-all hover:text-foreground group-hover:opacity-100"
         aria-label={`Copy ${entry.componentName}`}
       >
         {copied ? (
-          <IconCheck className="size-3.5 text-green-500" />
+          <IconCheck className="size-3 text-emerald-500" />
         ) : (
-          <IconCopy className="size-3.5" />
+          <IconCopy className="size-3" />
         )}
       </button>
     </div>
   );
-}
+});
