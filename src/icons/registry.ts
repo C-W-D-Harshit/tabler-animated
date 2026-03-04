@@ -316,7 +316,7 @@ export const iconRegistry: IconEntry[] = [
       "active"
     ],
     "category": "Health",
-    "animated": false
+    "animated": true
   },
   {
     "name": "activity-heartbeat",
@@ -1206,7 +1206,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "alarm-average",
@@ -1645,7 +1645,7 @@ export const iconRegistry: IconEntry[] = [
       "interface"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "alert-triangle-off",
@@ -2634,7 +2634,7 @@ export const iconRegistry: IconEntry[] = [
       "position"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "anchor-off",
@@ -3093,7 +3093,7 @@ export const iconRegistry: IconEntry[] = [
       "record"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "archive-off",
@@ -4327,7 +4327,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-down-bar",
@@ -4831,7 +4831,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-left-bar",
@@ -5683,7 +5683,7 @@ export const iconRegistry: IconEntry[] = [
       "navigate"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-right-bar",
@@ -6170,7 +6170,7 @@ export const iconRegistry: IconEntry[] = [
       "move"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "arrow-up-bar",
@@ -11640,7 +11640,7 @@ export const iconRegistry: IconEntry[] = [
       "speed"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bolt-off",
@@ -11883,7 +11883,7 @@ export const iconRegistry: IconEntry[] = [
       "information"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "bookmark-ai",
@@ -24082,7 +24082,7 @@ export const iconRegistry: IconEntry[] = [
       "function"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "calendar-bolt",
@@ -24838,7 +24838,7 @@ export const iconRegistry: IconEntry[] = [
       "audio"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "camera-ai",
@@ -27380,7 +27380,7 @@ export const iconRegistry: IconEntry[] = [
       "analytics"
     ],
     "category": "Charts",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chart-bar-off",
@@ -27788,7 +27788,7 @@ export const iconRegistry: IconEntry[] = [
       "analytics"
     ],
     "category": "Charts",
-    "animated": false
+    "animated": true
   },
   {
     "name": "chart-pie",
@@ -28019,7 +28019,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "checkbox",
@@ -29394,7 +29394,7 @@ export const iconRegistry: IconEntry[] = [
       "approve"
     ],
     "category": "Shapes",
-    "animated": false
+    "animated": true
   },
   {
     "name": "circle-chevron-down",
@@ -32862,7 +32862,7 @@ export const iconRegistry: IconEntry[] = [
       "blank"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "clipboard-check",
@@ -33157,7 +33157,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "clock12",
@@ -33997,7 +33997,7 @@ export const iconRegistry: IconEntry[] = [
       "atmospheric"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cloud-bitcoin",
@@ -34808,7 +34808,7 @@ export const iconRegistry: IconEntry[] = [
       "typography"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "code-asterisk",
@@ -35062,7 +35062,7 @@ export const iconRegistry: IconEntry[] = [
       "eating"
     ],
     "category": "Food",
-    "animated": false
+    "animated": true
   },
   {
     "name": "coffee-off",
@@ -35698,7 +35698,7 @@ export const iconRegistry: IconEntry[] = [
       "position"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "compass-off",
@@ -35860,7 +35860,7 @@ export const iconRegistry: IconEntry[] = [
       "confetti"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "confetti-off",
@@ -36170,7 +36170,7 @@ export const iconRegistry: IconEntry[] = [
       "word"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "copy-check",
@@ -36781,7 +36781,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "cpu2",
@@ -37047,7 +37047,7 @@ export const iconRegistry: IconEntry[] = [
       "business"
     ],
     "category": "E-commerce",
-    "animated": false
+    "animated": true
   },
   {
     "name": "credit-card-off",
@@ -37331,7 +37331,7 @@ export const iconRegistry: IconEntry[] = [
       "crown"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "crown-off",
@@ -37905,7 +37905,7 @@ export const iconRegistry: IconEntry[] = [
       "pay"
     ],
     "category": "Currencies",
-    "animated": false
+    "animated": true
   },
   {
     "name": "currency-dollar-australian",
@@ -39476,7 +39476,7 @@ export const iconRegistry: IconEntry[] = [
       "record"
     ],
     "category": "Database",
-    "animated": false
+    "animated": true
   },
   {
     "name": "database-cog",
@@ -40332,7 +40332,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "device-desktop-analytics",
@@ -42554,7 +42554,7 @@ export const iconRegistry: IconEntry[] = [
       "gadget"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "device-mobile-bolt",
@@ -46046,7 +46046,7 @@ export const iconRegistry: IconEntry[] = [
       "path"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "download-off",
@@ -47018,7 +47018,7 @@ export const iconRegistry: IconEntry[] = [
       "visual"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "edit-circle",
@@ -47886,7 +47886,7 @@ export const iconRegistry: IconEntry[] = [
       "vision"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "eye-bitcoin",
@@ -48843,7 +48843,7 @@ export const iconRegistry: IconEntry[] = [
       "information"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "file3d",
@@ -52253,7 +52253,7 @@ export const iconRegistry: IconEntry[] = [
       "geography"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "flag2",
@@ -52833,7 +52833,7 @@ export const iconRegistry: IconEntry[] = [
       "flame"
     ],
     "category": "Nature",
-    "animated": false
+    "animated": true
   },
   {
     "name": "flame-off",
@@ -53301,7 +53301,7 @@ export const iconRegistry: IconEntry[] = [
       "paper"
     ],
     "category": "Document",
-    "animated": false
+    "animated": true
   },
   {
     "name": "folder-bolt",
@@ -55005,7 +55005,7 @@ export const iconRegistry: IconEntry[] = [
       "purchase"
     ],
     "category": "E-commerce",
-    "animated": false
+    "animated": true
   },
   {
     "name": "gift-card",
@@ -55455,7 +55455,7 @@ export const iconRegistry: IconEntry[] = [
       "geography"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "globe-off",
@@ -56825,7 +56825,7 @@ export const iconRegistry: IconEntry[] = [
       "pattern"
     ],
     "category": "Shapes",
-    "animated": false
+    "animated": true
   },
   {
     "name": "heart-bitcoin",
@@ -57598,7 +57598,7 @@ export const iconRegistry: IconEntry[] = [
       "circle"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "help-hexagon",
@@ -60941,7 +60941,7 @@ export const iconRegistry: IconEntry[] = [
       "inbox"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "inbox-off",
@@ -61076,7 +61076,7 @@ export const iconRegistry: IconEntry[] = [
       "round"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "info-hexagon",
@@ -62062,7 +62062,7 @@ export const iconRegistry: IconEntry[] = [
       "key"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "key-off",
@@ -62943,7 +62943,7 @@ export const iconRegistry: IconEntry[] = [
       "style"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "layout2",
@@ -65587,7 +65587,7 @@ export const iconRegistry: IconEntry[] = [
       "writing"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "link-minus",
@@ -65677,7 +65677,7 @@ export const iconRegistry: IconEntry[] = [
       "character"
     ],
     "category": "Text",
-    "animated": false
+    "animated": true
   },
   {
     "name": "list-check",
@@ -65929,7 +65929,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "loader2",
@@ -66518,7 +66518,7 @@ export const iconRegistry: IconEntry[] = [
       "function"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "lock-access",
@@ -67413,7 +67413,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "logout2",
@@ -67695,7 +67695,7 @@ export const iconRegistry: IconEntry[] = [
       "post"
     ],
     "category": "Communication",
-    "animated": false
+    "animated": true
   },
   {
     "name": "mail-ai",
@@ -68771,7 +68771,7 @@ export const iconRegistry: IconEntry[] = [
       "mark"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "map-pin2",
@@ -70898,7 +70898,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "menu2",
@@ -70995,7 +70995,7 @@ export const iconRegistry: IconEntry[] = [
       "interaction"
     ],
     "category": "Communication",
-    "animated": false
+    "animated": true
   },
   {
     "name": "message2",
@@ -72666,7 +72666,7 @@ export const iconRegistry: IconEntry[] = [
       "audio"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "microphone2",
@@ -72950,7 +72950,7 @@ export const iconRegistry: IconEntry[] = [
       "numeric"
     ],
     "category": "Math",
-    "animated": false
+    "animated": true
   },
   {
     "name": "minus-vertical",
@@ -74336,7 +74336,7 @@ export const iconRegistry: IconEntry[] = [
       "conditions"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "moon2",
@@ -74739,7 +74739,7 @@ export const iconRegistry: IconEntry[] = [
       "broadcast"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "music-bolt",
@@ -78362,7 +78362,7 @@ export const iconRegistry: IconEntry[] = [
       "visual"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "palette-off",
@@ -78908,7 +78908,7 @@ export const iconRegistry: IconEntry[] = [
       "style"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "pencil-bolt",
@@ -79993,7 +79993,7 @@ export const iconRegistry: IconEntry[] = [
       "contact"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "phone-call",
@@ -80312,7 +80312,7 @@ export const iconRegistry: IconEntry[] = [
       "audio"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "photo-ai",
@@ -81520,7 +81520,7 @@ export const iconRegistry: IconEntry[] = [
       "fix"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "pin-end",
@@ -82731,7 +82731,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "plug-connected",
@@ -82845,7 +82845,7 @@ export const iconRegistry: IconEntry[] = [
       "positive"
     ],
     "category": "Math",
-    "animated": false
+    "animated": true
   },
   {
     "name": "plus-equal",
@@ -83684,7 +83684,7 @@ export const iconRegistry: IconEntry[] = [
       "gadget"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "pray",
@@ -83830,7 +83830,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "printer-off",
@@ -84270,7 +84270,7 @@ export const iconRegistry: IconEntry[] = [
       "activity"
     ],
     "category": "Games",
-    "animated": false
+    "animated": true
   },
   {
     "name": "puzzle2",
@@ -85442,7 +85442,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "refresh-alert",
@@ -86500,7 +86500,7 @@ export const iconRegistry: IconEntry[] = [
       "navigation"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "rocket-off",
@@ -88073,7 +88073,7 @@ export const iconRegistry: IconEntry[] = [
       "artistic"
     ],
     "category": "Design",
-    "animated": false
+    "animated": true
   },
   {
     "name": "scissors-off",
@@ -88491,7 +88491,7 @@ export const iconRegistry: IconEntry[] = [
       "browse"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "search-off",
@@ -88710,7 +88710,7 @@ export const iconRegistry: IconEntry[] = [
       "conversation"
     ],
     "category": "Communication",
-    "animated": false
+    "animated": true
   },
   {
     "name": "send2",
@@ -88851,7 +88851,7 @@ export const iconRegistry: IconEntry[] = [
       "equipment"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "server2",
@@ -89660,7 +89660,7 @@ export const iconRegistry: IconEntry[] = [
       "spread"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "share2",
@@ -89756,7 +89756,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "shield-bolt",
@@ -92788,7 +92788,7 @@ export const iconRegistry: IconEntry[] = [
       "sparkles"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "sparkles2",
@@ -96543,7 +96543,7 @@ export const iconRegistry: IconEntry[] = [
       "function"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "star-half",
@@ -97179,7 +97179,7 @@ export const iconRegistry: IconEntry[] = [
       "conditions"
     ],
     "category": "Weather",
-    "animated": false
+    "animated": true
   },
   {
     "name": "sun-electricity",
@@ -98095,7 +98095,7 @@ export const iconRegistry: IconEntry[] = [
       "business"
     ],
     "category": "E-commerce",
-    "animated": false
+    "animated": true
   },
   {
     "name": "tag-minus",
@@ -98332,7 +98332,7 @@ export const iconRegistry: IconEntry[] = [
       "position"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "target-arrow",
@@ -98794,7 +98794,7 @@ export const iconRegistry: IconEntry[] = [
       "terminal"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "terminal2",
@@ -101291,7 +101291,7 @@ export const iconRegistry: IconEntry[] = [
       "operation"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "trash-off",
@@ -101749,7 +101749,7 @@ export const iconRegistry: IconEntry[] = [
       "trophy"
     ],
     "category": "Sport",
-    "animated": false
+    "animated": true
   },
   {
     "name": "trophy-off",
@@ -102266,7 +102266,7 @@ export const iconRegistry: IconEntry[] = [
       "movement"
     ],
     "category": "Arrows",
-    "animated": false
+    "animated": true
   },
   {
     "name": "urgent",
@@ -102320,7 +102320,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "user-bitcoin",
@@ -103031,7 +103031,7 @@ export const iconRegistry: IconEntry[] = [
       "management"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "users-group",
@@ -103630,7 +103630,7 @@ export const iconRegistry: IconEntry[] = [
       "broadcast"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "video-minus",
@@ -104093,7 +104093,7 @@ export const iconRegistry: IconEntry[] = [
       "hearing"
     ],
     "category": "Media",
-    "animated": false
+    "animated": true
   },
   {
     "name": "volume2",
@@ -104331,7 +104331,7 @@ export const iconRegistry: IconEntry[] = [
       "wand"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "wand-off",
@@ -105299,7 +105299,7 @@ export const iconRegistry: IconEntry[] = [
       "electronic"
     ],
     "category": "Devices",
-    "animated": false
+    "animated": true
   },
   {
     "name": "wifi0",
@@ -105671,7 +105671,7 @@ export const iconRegistry: IconEntry[] = [
       "place"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "world-bolt",
@@ -106377,7 +106377,7 @@ export const iconRegistry: IconEntry[] = [
       "x"
     ],
     "category": "System",
-    "animated": false
+    "animated": true
   },
   {
     "name": "x-power-y",
@@ -107034,7 +107034,7 @@ export const iconRegistry: IconEntry[] = [
       "low-vision"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "zoom-in-area",
@@ -107107,7 +107107,7 @@ export const iconRegistry: IconEntry[] = [
       "vision"
     ],
     "category": "Map",
-    "animated": false
+    "animated": true
   },
   {
     "name": "zoom-out-area",
